@@ -1,0 +1,12 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2025-12-16 00:21 PKT
+Nmap scan report for 192.168.149.145
+Host is up (0.000010s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+53/tcp  open  domain
+111/tcp open  rpcbind
+
+Nmap done: 1 IP address (1 host up) scanned in 1.96 seconds

@@ -1,0 +1,6 @@
+suricata -T -c /etc/suricata/suricata.yaml
+suricata -c /etc/suricata/suricata.yaml -i ens33
+ping 192.168.149.145
+nmap -sS 192.168.149.145
+tail -f /var/log/suricata/fast.log
+
